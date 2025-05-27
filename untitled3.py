@@ -24,7 +24,7 @@ def trace_data_types(data_item):
     result = data_item.upper()
     print("Type:str")
   elif isinstance(data_item,list):
-    resulr = len(data_item)
+    result = len(data_item)
     print("Type:list")
   elif isinstance(data_item,dict):
     result = list(data_item.key())
